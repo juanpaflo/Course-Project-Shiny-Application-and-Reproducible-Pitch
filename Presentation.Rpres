@@ -1,0 +1,35 @@
+Iris data frame - Shiny app
+========================================================
+author: Juan Flores
+date: September 15th, 2017
+autosize: true
+
+Overview
+========================================================
+
+The objective of the presentation is to show information about the shiny application created.
+
+The data frame Iris is going to be used for a simple analysis, getting a histogram and basic statistic information like the mean and the standard deviation.
+
+Summary of Iris data frame
+========================================================
+
+```{r}
+str(iris)
+```
+
+In the shiny app, the user will be able to select a specie, and any other attribute to get basic information about it.
+
+Shiny App
+========================================================
+
+The application contains three drop-down lists where the user can select the specie, and the attribute
+from the iris data frame, and also the bars color of the histogram.
+
+The drop-down lists, have a default value, so since the moment the user opens the application, a histogram
+and the information related to the data of the specie and attrbiute are displayed. Every time the user changes
+a value on a drop-down list, the histogram and the information displayed below, will change accordingly.
+
+Glance of the Shiny App
+========================================================
+![Title](Shiny_app.png)
